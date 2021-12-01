@@ -1,9 +1,37 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+
+.toysbutton {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
 }
+
+.toysbutton:active {
+  border-color: white;
+}
+
+.toysbuttonprimary {
+  background-color: dodgerblue;
+  border-color: dodgerblue; 
+  color: white;     
+}
+
+.toysbuttondashed {
+  border-style: dotted;
+}
+
+.toysbuttontext {
+  border: none;
+}
+
+.toysbuttonlink {
+  color: deepskyblue;
+  border: none;  
+}
+
+
+
+
+
+
